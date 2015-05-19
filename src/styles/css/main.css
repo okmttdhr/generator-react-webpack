@@ -1,0 +1,49 @@
+/* Stiziles */
+/* line 3, ../scss/main.scss */
+html, body {
+  background: #222222;
+}
+
+/* main */
+/* line 9, ../scss/main.scss */
+.main {
+  width: 100%;
+  height: 100%;
+  background: #222222;
+  color: #fff;
+}
+/* line 14, ../scss/main.scss */
+.main img {
+  width: 103px;
+  height: 89px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* line 20, ../scss/main.scss */
+.main .test_p {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* transitions */
+/* line 28, ../scss/main.scss */
+.fade-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+/* line 33, ../scss/main.scss */
+.fade-enter.fade-enter-active {
+  opacity: 1;
+}
+
+/* line 37, ../scss/main.scss */
+.fade-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+/* line 42, ../scss/main.scss */
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+}
